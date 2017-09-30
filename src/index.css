@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+input {
+  display: block;
+  box-sizing: border-box;
+  font-size: 1em;
+  color: hsl(200, 4%, 29%);
+  background-color: white;
+  border: 1px solid;
+  border-color: 'hsla(0, 0%, 0%, 0.15)';
+  border-radius: 0.25em;
+
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+
+  margin: 1em;
+  padding: 1em;
+
+  text-align: center;
+}
+input:focus {
+  box-shadow: rgb(68, 0, 255) 0 0 10px 0px;
+}
+button {
+  align-items: flex-start;
+  background: lightgray;
+  border: none;
+  border-radius: 0.3em;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: default;
+  display: inline-block;
+  font: inherit;
+  letter-spacing: normal;
+  margin: 0em;
+  padding: 0.4em 0.8em;
+  text-align: center;
+  text-decoration: inherit;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  touch-action: manipulation;
+  word-spacing: normal;
+
+  background: #309ef4;
+  /* keep 4px border-radius regardless of button size */
+  border-radius: 4px;
+  color: white;
+
+  margin: 1em;
+}
+button:focus,
+button:hover {
+  outline: none;
+  background: #2586d2;
+}
+button:active {
+  background: #1a6baa;
+}
+button:disabled {
+  opacity: 0.5;
+  background: #b3b3b3;
+}
