@@ -1,5 +1,7 @@
 # End to End Testing
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/end-to-end-testing-react-applications.svg)](https://greenkeeper.io/)
+
 The presentation can be found in the keynote file/pdf file.
 
 To run the demo:
