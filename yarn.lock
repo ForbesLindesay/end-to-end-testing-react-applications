@@ -813,9 +813,9 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
 
-cabbie-async@^0.10.7:
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/cabbie-async/-/cabbie-async-0.10.7.tgz#4a73aee41b2c3fbd37754dfa57a14cb8398ac076"
+cabbie-async@^0.11.7:
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/cabbie-async/-/cabbie-async-0.11.8.tgz#2912323452465438b9a0e97d998e0dc8fded11e3"
   dependencies:
     "@types/node" "^7.0.31"
     available-browsers "^1.0.3"
@@ -829,9 +829,9 @@ cabbie-async@^0.10.7:
     taxi-rank "^2.1.0"
     then-request "^2.0.1"
 
-cabbie-sync@^0.10.7:
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/cabbie-sync/-/cabbie-sync-0.10.7.tgz#86c57341fb962af850d6176460e6ef8527d6e6cf"
+cabbie-sync@^0.11.7:
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/cabbie-sync/-/cabbie-sync-0.11.8.tgz#c764df3cde5901926e13bc361cb86724c344b539"
   dependencies:
     "@types/node" "^7.0.31"
     available-browsers "^1.0.3"

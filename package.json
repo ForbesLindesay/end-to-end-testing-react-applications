@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@types/react-select": "^1.0.58",
-    "cabbie-async": "^0.10.7",
-    "cabbie-sync": "^0.10.7",
+    "cabbie-async": "^0.11.7",
+    "cabbie-sync": "^0.11.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts-ts": "2.7.0",
@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts-ts start",
-    "test": "ts-node src/test.ts"
+    "test": "ts-node src/test.ts",
+    "pizza": "ts-node src/pizza.ts"
   },
   "devDependencies": {
     "@types/jest": "^21.1.1",
